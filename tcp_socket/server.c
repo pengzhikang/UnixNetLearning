@@ -4,9 +4,13 @@
 
 #include "config.h"
 
-int add_info(char* buf, int n){
-	char* addinfo = "sb";
+int add_info(char* buf, int n1){
+	char* addinfo = "sb\n";
+	int n = n1;
 	if (n + 1 + strlen(addinfo) <= MAX_LINE){
+		if (buf[n-1] == '\n'){
+			n = n - 1;
+		}
 		for(size_t i = 0; i < strlen(addinfo); i++){
 			buf[n + i] = addinfo[i];
 		}
