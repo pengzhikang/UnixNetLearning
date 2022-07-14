@@ -1,0 +1,3 @@
+/media/inspur/inference/pengzhikang/Socket/tcp_socket/build/CMakeFiles/rebuild_cache.dir
+/media/inspur/inference/pengzhikang/Socket/tcp_socket/build/CMakeFiles/tcpser.dir
+/media/inspur/inference/pengzhikang/Socket/tcp_socket/build/CMakeFiles/edit_cache.dir

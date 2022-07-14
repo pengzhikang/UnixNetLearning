@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/tcpser.dir/server.c.o -o release/tcpser  -lstdc++fs 
