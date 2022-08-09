@@ -1,0 +1,19 @@
+
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                // "${workspaceFolder}/scripts/",
+                // "/usr/include/aarch64-linux-gnu/bits/",
+                "${workspaceFolder}/include/",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
